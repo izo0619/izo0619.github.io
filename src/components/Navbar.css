@@ -31,7 +31,7 @@
   }
   
   .navbar-logo:hover {
-    font-weight:bold;
+    color:rgb(114, 114, 114);
   }
 
   .fa-typo3 {
@@ -67,7 +67,7 @@
   }
   
   .nav-links:hover {
-    font-weight:bold;
+    color:rgb(114, 114, 114);
   }
   
   .fa-bars {
@@ -114,7 +114,6 @@
     }
   
     .nav-links:hover {
-      color: #242424;
       border-radius: 0;
     }
   
