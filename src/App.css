@@ -1,38 +1,49 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Futura;
+  font-style: normal;
+}
+
+.home {
+  background: url("./images/house.png") right bottom no-repeat; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 650px 550px;
+  background-position: 80% 100%;
+}
+
+.home h1{
+  font-family: Baskerville;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.home h3{
+  font-family: Baoli SC;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.education {
   text-align: center;
+  margin-bottom: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about img {
+  width: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.education img {
+  width: 100px;
 }
