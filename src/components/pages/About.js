@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../App.css';
+import pfp4 from '../../images/pfp4.png'
 function About() {
     return (
         <div className="about">
@@ -22,7 +23,7 @@ function About() {
             </p>
             <br/>
             <br/>
-            <img src="./images/pfp4.png"></img>
+            <img src={pfp4}></img>
         </div>
     )
 }

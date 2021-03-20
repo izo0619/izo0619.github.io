@@ -1,11 +1,12 @@
 import React from 'react'
 import '../../App.css';
+import educationpic from '../../images/nu.jpeg'
 function Education() {
     return (
         <div className="education">
             <br/>
             <h1>education</h1>
-            <img src="./images/nu.jpeg"></img>
+            <img src={educationpic}></img>
             <br/>
             <h3>northwestern university 2020-2024</h3>
             <p>B.S. biomedical engineering/computer science</p>

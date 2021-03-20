@@ -2,7 +2,7 @@
   "name": "personal_webby",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://izo0619.github.io/website",
+  "homepage": "https://izo0619.github.io/web",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
