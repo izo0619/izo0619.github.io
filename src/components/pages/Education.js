@@ -4,7 +4,6 @@ import educationpic from '../../images/nu.jpeg'
 function Education() {
     return (
         <div className="education">
-            <br/>
             <h1>education</h1>
             <img src={educationpic}></img>
             <br/>

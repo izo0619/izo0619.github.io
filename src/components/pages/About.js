@@ -4,7 +4,6 @@ import pfp4 from '../../images/pfp4.png'
 function About() {
     return (
         <div className="about">
-            <br/>
             <h1>about</h1>
             <br/>
             <p>Hi! I am an aspiring engineer with a wide variety of interests. Academically, I am interested in the intersection of medicine, biology, and engineering.

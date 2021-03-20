@@ -19,7 +19,7 @@ function Cards() {
             <CardItem
               src={freezeframe}
               text='Freeze Frame (DTC1 Project)'
-              path='https://symposium.foragerone.com/nudtcwq2021/presentations/13262'
+              path='https://drive.google.com/file/d/14vTao-ZU2BSOTzJ6al69Hzr1mBf1AEZ5/view?usp=sharing'
             />
             <CardItem
               src={nuarchcad}

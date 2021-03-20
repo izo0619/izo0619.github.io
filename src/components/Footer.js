@@ -7,13 +7,13 @@ function Footer() {
         <div className="footer-links">
             <div className="footer-link-wrapper">
                 <div className="footer-link-items">
-                    <a href='https://www.linkedin.com/in/isabel-zhong/'>@isabel-zhong</a>
-                    <a href='https://github.com/izo0619'>@izo0619</a>
+                    <a href='https://www.linkedin.com/in/isabel-zhong/' target="_blank">@isabel-zhong</a>
+                    <a href='https://github.com/izo0619' target="_blank">@izo0619</a>
                 </div>
             </div>
             <div className="footer-p">
-                <p>isabelzhong at northwestern dot edu</p>
-                <a href='https://drive.google.com/file/d/1BKiSeSJTaoVZi9q9pL5AjOcVuGLwOSHR/view?usp=sharing'>resume</a>
+                <p>isabelzhong at u.northwestern.edu</p>
+                <a href='https://drive.google.com/file/d/1BKiSeSJTaoVZi9q9pL5AjOcVuGLwOSHR/view?usp=sharing' target="_blank">resume</a>
             </div>
         </div>
         </div>
