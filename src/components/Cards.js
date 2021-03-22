@@ -8,6 +8,7 @@ import yakultcad from '../images/yakultcad.png'
 import bootlegpictionary from '../images/bootlegpictionary.png'
 import sanrioblock from '../images/sanrioblock.png'
 import camandfollower from '../images/camandfollower.png'
+import perlinnoise from '../images/perlinnoise.gif'
 
 function Cards() {
   return (
@@ -17,10 +18,10 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src={freezeframe}
-              text='Freeze Frame (DTC1 Project)'
-              path='https://drive.google.com/file/d/14vTao-ZU2BSOTzJ6al69Hzr1mBf1AEZ5/view?usp=sharing'
-            />
+                src={perlinnoise}
+                text='Perlin Noise Flow Field Simulation'
+                path='https://github.com/izo0619/perlin-noise-flow-field'
+              />
             <CardItem
               src={nuarchcad}
               text='Weber Arch Model'
@@ -28,6 +29,11 @@ function Cards() {
             />
           </ul>
           <ul className='cards__items'>
+            <CardItem
+              src={freezeframe}
+              text='Freeze Frame (DTC1 Project)'
+              path='https://drive.google.com/file/d/14vTao-ZU2BSOTzJ6al69Hzr1mBf1AEZ5/view?usp=sharing'
+            />
             <CardItem
               src={pillpunter}
               text='Pill Punter (MakeHarvard submission)'
@@ -37,11 +43,6 @@ function Cards() {
               src={yakultcad}
               text='Yakult Model'
               path='https://grabcad.com/library/babey-yakult-1'
-            />
-            <CardItem
-              src={bootlegpictionary}
-              text='Bootleg Pictionary (CSSI Final Project)'
-              path='https://github.com/izo0619/cssifinalproject'
             />
           </ul>
           <ul className='cards__items'>
@@ -54,6 +55,11 @@ function Cards() {
               src={camandfollower}
               text='Cam and Follower Model'
               path='https://grabcad.com/library/cam-follower-32'
+            />
+            <CardItem
+              src={bootlegpictionary}
+              text='Bootleg Pictionary (CSSI Final Project)'
+              path='https://github.com/izo0619/cssifinalproject'
             />
           </ul>
         </div>
