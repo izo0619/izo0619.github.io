@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <h1>isabel zhong</h1>
-      <h3>中鲜</h3>
+      <h3>钟鲜</h3>
     </div>
   );
 }
