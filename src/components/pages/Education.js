@@ -8,7 +8,7 @@ function Education() {
             <img src={educationpic}></img>
             <br/>
             <h3>northwestern university 2020-2024</h3>
-            <p>B.S. biomedical engineering/computer science</p>
+            <p>B.S./M.S. biomedical engineering/computer science (intended)</p>
             <br/>
             <p>activities:</p>
             <ul>

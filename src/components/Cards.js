@@ -9,6 +9,8 @@ import bootlegpictionary from '../images/bootlegpictionary.png'
 import sanrioblock from '../images/sanrioblock.png'
 import camandfollower from '../images/camandfollower.png'
 import perlinnoise from '../images/perlinnoise.gif'
+import celegans from '../images/celegans.png'
+import fb from '../images/flappy.png'
 
 function Cards() {
   return (
@@ -16,11 +18,24 @@ function Cards() {
       <h1>projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
-          <ul className='cards__items'>
+        <ul className='cards__items'>
+            <CardItem
+              src={celegans}
+              text='Image Processing on C.Elegans (research)'
+              path='https://github.com/izo0619/celegans_img_proc'
+            />
             <CardItem
                 src={perlinnoise}
                 text='Perlin Noise Flow Field Simulation'
                 path='https://github.com/izo0619/perlin-noise-flow-field'
+              />
+            
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+                src={fb}
+                text='C++ Flappy Bird'
+                path='https://github.com/izo0619/cpp-flappybird'
               />
             <CardItem
               src={nuarchcad}
