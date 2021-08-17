@@ -12,12 +12,12 @@ function About() {
                 hardware, mechanical design, and project management.
             </p>
             <br/>
-            <p> Academically, I am currently a sophomore at Northwestern pursuing my B.S. in biomedical engineering. However, I find that my courseload is lacking
+            <p> I am currently a sophomore at Northwestern pursuing my B.S. in biomedical engineering. However, I find that my courseload is lacking
                 in software content so I am trying to take more CS courses to complete an M.S. in computer science within the four years.
             </p>
             <br/>
-            <p>In the past, I have done a few internships at startups where I picked up most of my coding skills outside of coursework. I also started doing research
-                beginning my freshman year at Northwestern with various labs. I am currently working in the Mangan Group which is part of the Center of Quantitative Biology.
+            <p>In the past, I have done a few internships at startups where I picked up most of my coding skills outside of coursework. I also started research
+                beginning my freshman year at Northwestern with various labs. I currently work in the Mangan Group which is part of the Center of Quantitative Biology.
             </p>
             <br/>
             <p>
