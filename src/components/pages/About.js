@@ -22,8 +22,7 @@ function About() {
             <br/>
             <p>
                 Outside of school, I like to dance and explore new restaurants and cafes in my area :))
-                I am open to opportunities in both industry and academia and is currently looking for summer 2022 internships!
-                Please feel free to contact me or connect on LinkedIn to chat!
+                I am open to opportunities in both industry and academia, so please feel free to contact me or connect on LinkedIn to chat!
             </p>
             <br/>
             <br/>
