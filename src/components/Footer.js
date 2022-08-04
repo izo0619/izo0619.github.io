@@ -13,7 +13,7 @@ function Footer() {
             </div>
             <div className="footer-p">
                 <p>isabelzhong at u.northwestern.edu</p>
-                <a href='https://drive.google.com/file/d/1y_KnKbI4x-r2NDkxpt39BfUD6YkSqxTR/view?usp=sharing' target="_blank">resume</a>
+                <a href='https://drive.google.com/file/d/1dC7xhC9Tz9CuNTI3IYVjd_zs5CUTUh34/view?usp=sharing' target="_blank">resume</a>
             </div>
         </div>
         </div>

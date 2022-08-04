@@ -6,18 +6,19 @@ function About() {
         <div className="about">
             <h1>about</h1>
             <br/>
-            <p>Hi! I am an aspiring engineer with a wide variety of interests. Academically, I am interested in the intersection of medicine, biology, and engineering.
-                Initially, I thought that this was such a niche area, but I have since realized how diverse the field is so I am still trying to
-                figure out where I should direct myself. My love for engineering sparks from my passion for problem solving, so I'm open to learning about software, 
-                hardware, mechanical design, and project management.
+            <p>Hi! I am an aspiring engineer interested in the intersection of medicine, biology, and engineering.
+                My love for engineering sparks from my passion for problem solving, so I'm open minded and happy to learn about anything software, 
+                hardware, mechanical design, or project management related.
             </p>
             <br/>
-            <p> I am currently a sophomore at Northwestern pursuing my B.S. in biomedical engineering. However, I find that my courseload is lacking
-                in software content so I am trying to take more CS courses to complete an M.S. in computer science within the four years.
+            <p> I am currently a junior at Northwestern pursuing my B.S. in biomedical engineering and a M.S. in computer science concurrently through
+                the BS/MS program graduating in June 2024.
             </p>
             <br/>
-            <p>In the past, I have done a few internships at startups where I picked up most of my coding skills outside of coursework. I also started research
-                beginning my freshman year at Northwestern with various labs. I currently work in the Mangan Group which is part of the Center of Quantitative Biology.
+            <p>In the past, I have done a few internships at startups where I picked up most of my coding skills outside of coursework. I also completed
+                an internship at Microsoft this past summer. I have done research beginning my freshman year at Northwestern with various labs and I 
+                currently work in the Mangan Group which is part of the Center of Quantitative Biology. I am also on Northwestern's Formula SAE team, 
+                leading the software team this year.
             </p>
             <br/>
             <p>
