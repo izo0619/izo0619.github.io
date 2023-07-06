@@ -6,10 +6,10 @@ function Education() {
         <div className="education">
             <h1>education</h1>
             <img src={educationpic}></img>
-            <br/>
+            <br />
             <h3>northwestern university 2020-2024</h3>
-            <p>B.S./M.S. biomedical engineering/computer science (intended)</p>
-            <br/>
+            <p>B.S./M.S. biomedical engineering/computer science</p>
+            <br />
             <p>activities:</p>
             <ul>
                 <li>northwestern formula racing</li>
