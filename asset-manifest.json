@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.426ec777.chunk.css",
-    "main.js": "/static/js/main.ffd903d6.chunk.js",
-    "main.js.map": "/static/js/main.ffd903d6.chunk.js.map",
+    "main.js": "/static/js/main.ddb202a9.chunk.js",
+    "main.js.map": "/static/js/main.ddb202a9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f78ed66d.js",
     "runtime-main.js.map": "/static/js/runtime-main.f78ed66d.js.map",
     "static/js/2.3791542a.chunk.js": "/static/js/2.3791542a.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/flappy.e9cc8cbe.png": "/static/media/flappy.e9cc8cbe.png",
     "static/media/freezeframe.2d9bee69.png": "/static/media/freezeframe.2d9bee69.png",
     "static/media/App.css": "/static/media/house.cd02b867.png",
+    "static/media/nfr.8da11d06.jpg": "/static/media/nfr.8da11d06.jpg",
     "static/media/nu.b310aa11.jpeg": "/static/media/nu.b310aa11.jpeg",
     "static/media/nuarchcad.9eb2e58e.png": "/static/media/nuarchcad.9eb2e58e.png",
     "static/media/perlinnoise.2ced13bf.gif": "/static/media/perlinnoise.2ced13bf.gif",
@@ -28,6 +29,6 @@
     "static/js/runtime-main.f78ed66d.js",
     "static/js/2.3791542a.chunk.js",
     "static/css/main.426ec777.chunk.css",
-    "static/js/main.ffd903d6.chunk.js"
+    "static/js/main.ddb202a9.chunk.js"
   ]
 }
