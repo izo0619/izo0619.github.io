@@ -12,8 +12,10 @@ function Footer() {
                     </div>
                 </div>
                 <div className="footer-p">
-                    <p>isabelzhong at u.northwestern.edu</p>
-                    <a href='https://drive.google.com/file/d/1qE12MQPw4culUemFT3Z9K5AWTtnVy5Ni/view?usp=sharing' target="_blank">resume</a>
+                    <p>izx at u.northwestern.edu</p>
+                    <a href='https://drive.google.com/file/d/1oal-nVxJU4eqlMbuOaN4gSzAw8Oh-wRn/view?usp=sharing' target="_blank">resume</a>
+                    <a> | </a>
+                    <a href='https://drive.google.com/file/d/13rRBEcHjR14kZkTHNpnUBIIoEweegSKF/view?usp=sharing' target="_blank">cv</a>
                 </div>
             </div>
         </div>

@@ -12,6 +12,12 @@ import perlinnoise from '../images/perlinnoise.gif'
 import celegans from '../images/celegans.png'
 import fb from '../images/flappy.png'
 import nfr from '../images/nfr.jpg'
+import xenobot from '../images/xenobot.gif'
+import dance from '../images/dance335.jpg'
+import hackuiowa from '../images/tunetwin.png'
+import capstone from '../images/capstone.jpg'
+import ee332 from '../images/ee332.jpg'
+import rogers from '../images/rogers.jpg'
 
 function Cards() {
     return (
@@ -28,18 +34,51 @@ function Cards() {
                     </ul>
                     <ul className='cards__items'>
                         <CardItem
+                            src={capstone}
+                            text='MRI-Compatible Chest Compression Device (BME Capstone, WIP)'
+                            path='https://drive.google.com/file/d/1308bqTXnu3Wi8K7Kgv48WQkEqi4FnyLB/view?usp=sharing'
+                        />
+                        <CardItem
+                            src={xenobot}
+                            text='Morphology Evolution with Differentiable Physics Engines (Xenobot Lab, WIP - no link yet)'
+                        />
+
+                    </ul>
+                    <ul className='cards__items'>
+                        <CardItem
                             src={celegans}
-                            text='Image Processing on C.Elegans (research)'
+                            text='Image Processing on C.Elegans (Mangan Group)'
                             path='https://github.com/izo0619/celegans_img_proc'
                         />
+                        <CardItem
+                            src={rogers}
+                            text='Skin-Interfaced Wearable for Vocal Fatigue (Rogers Lab)'
+                            path='https://doi.org/10.1073/pnas.2219394120'
+                        />
+                    </ul>
+                    <ul className='cards__items'>
+                        <CardItem
+                            src={ee332}
+                            text="Where's Waldo? (EE 332 Computer Vision Final Project)"
+                            path='https://drive.google.com/file/d/1On0NzBGEHjB5nJkQnhLoWM5r8gEba4aa/view?usp=sharing'
+                        />
+                        <CardItem
+                            src={hackuiowa}
+                            text='TuneTwin (HackUIowa submission)'
+                            path='https://devpost.com/software/yeet-7vx5cb'
+                        />
+                        <CardItem
+                            src={dance}
+                            text='Butterfly Effect (Dance 335 Performance and Technology Final Project)'
+                            path='https://www.youtube.com/watch?v=DpXqGQT3Rls'
+                        />
+                    </ul>
+                    <ul className='cards__items'>
                         <CardItem
                             src={perlinnoise}
                             text='Perlin Noise Flow Field Simulation'
                             path='https://github.com/izo0619/perlin-noise-flow-field'
                         />
-
-                    </ul>
-                    <ul className='cards__items'>
                         <CardItem
                             src={fb}
                             text='C++ Flappy Bird'
