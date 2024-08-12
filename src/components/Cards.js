@@ -15,9 +15,10 @@ import nfr from '../images/nfr.jpg'
 import xenobot from '../images/xenobot.gif'
 import dance from '../images/dance335.jpg'
 import hackuiowa from '../images/tunetwin.png'
-import capstone from '../images/capstone.jpg'
+import capstone from '../images/bmecap.png'
 import ee332 from '../images/ee332.jpg'
 import rogers from '../images/rogers.jpg'
+import rds from "../images/rds.png"
 
 function Cards() {
     return (
@@ -31,16 +32,21 @@ function Cards() {
                             text='Northwestern Formula Racing Software (EV)'
                             path='https://github.com/NU-Formula-Racing'
                         />
+                        <CardItem
+                            src={rds}
+                            text='Bilateral Robotic Thumb and Finger with Haptic Feedback for Radioactive Laboratory Settings (RDS 2024)'
+                            path='https://youtu.be/HQtY-_a-lCs'
+                        />
                     </ul>
                     <ul className='cards__items'>
                         <CardItem
                             src={capstone}
-                            text='MRI-Compatible Chest Compression Device (BME Capstone, WIP)'
-                            path='https://drive.google.com/file/d/1308bqTXnu3Wi8K7Kgv48WQkEqi4FnyLB/view?usp=sharing'
+                            text='MRI-Compatible Chest Compression Device (BME Capstone, Robert B. Taggart Best Design Award)'
+                            path='https://drive.google.com/file/d/1x8vFQeTjd4wmEeSRTgbt46HwROoYGjzM/view?usp=sharing'
                         />
                         <CardItem
                             src={xenobot}
-                            text='Morphology Evolution with Differentiable Physics Engines (Xenobot Lab, WIP - no link yet)'
+                            text='Morphology Evolution with Differentiable Physics Engines (Xenobot Lab)'
                         />
 
                     </ul>
