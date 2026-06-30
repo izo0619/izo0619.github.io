@@ -1,1 +1,468 @@
-<!doctype html><html lang="en"><head><style>@import url(https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap);@import url(https://fonts.googleapis.com/css2?family=Baskervville&display=swap);@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;600&display=swap);@import url(https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&display=swap);</style><meta charset="utf-8"/><link rel="shortcut icon" type="image/x-icon" href="favicon.ico?"><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Isabel Zhong Portfolio"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous"/><link rel="manifest" href="/manifest.json"/><title>Isabel Zhong</title><link href="/static/css/main.426ec777.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,l,a=r[0],p=r[1],f=r[2],c=0,s=[];c<a.length;c++)l=a[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in p)Object.prototype.hasOwnProperty.call(p,n)&&(e[n]=p[n]);for(i&&i(r);s.length;)s.shift()();return u.push.apply(u,f||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=1;a<t.length;a++){var p=t[a];0!==o[p]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="/";var a=this.webpackJsonppersonal_webby=this.webpackJsonppersonal_webby||[],p=a.push.bind(a);a.push=r,a=a.slice();for(var f=0;f<a.length;f++)r(a[f]);var i=p;t()}([])</script><script src="/static/js/2.3791542a.chunk.js"></script><script src="/static/js/main.95cfef95.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isabel Zhong</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #fff;
+      --text: #111;
+      --muted: #555;
+      --border: #e0e0e0;
+      --accent: #111;
+      --nav-h: 56px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* NAV */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      height: var(--nav-h);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2rem;
+    }
+
+    .nav-logo {
+      font-family: 'Merriweather', serif;
+      font-size: 1rem;
+      font-weight: 700;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color 0.15s;
+    }
+
+    .nav-links a:hover { color: var(--text); }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+      background: none;
+      border: none;
+    }
+
+    .hamburger span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--text);
+      transition: all 0.2s;
+    }
+
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: var(--nav-h);
+      left: 0;
+      right: 0;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      z-index: 99;
+    }
+
+    .mobile-menu.open { display: block; }
+
+    .mobile-menu ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .mobile-menu a {
+      text-decoration: none;
+      color: var(--text);
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 5rem 2rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    section + section {
+      border-top: 1px solid var(--border);
+    }
+
+    h1 {
+      font-family: 'Merriweather', serif;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 700;
+      line-height: 1.15;
+    }
+
+    h2 {
+      font-family: 'Merriweather', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
+    }
+
+    h3 {
+      font-family: 'Merriweather', serif;
+      font-size: 1.1rem;
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    /* HOME */
+    #home {
+      min-height: calc(90vh - var(--nav-h));
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+
+    .hero-name { margin-bottom: 0.5rem; }
+    .hero-sub {
+      color: var(--muted);
+      font-size: 1rem;
+      max-width: 480px;
+    }
+    .hero-links {
+      margin-top: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .hero-links a {
+      text-decoration: none;
+      color: var(--text);
+      font-size: 0.9rem;
+      font-weight: 500;
+      border-bottom: 1px solid var(--text);
+      padding-bottom: 1px;
+      transition: opacity 0.15s;
+    }
+    .hero-links a:hover { opacity: 0.5; }
+
+    /* PROJECTS */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .project-card {
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      text-decoration: none;
+      color: var(--text);
+      display: block;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+
+    .project-card:hover {
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
+
+    .project-card img {
+      width: 100%;
+      aspect-ratio: 3/2;
+      object-fit: cover;
+      display: block;
+    }
+
+    .project-info {
+      padding: 0.85rem 1rem;
+    }
+
+    .project-info p {
+      font-size: 0.88rem;
+      line-height: 1.45;
+      color: var(--text);
+    }
+
+    .no-link {
+      cursor: default;
+    }
+    .no-link:hover {
+      box-shadow: none;
+      transform: none;
+    }
+
+    /* EDUCATION */
+    .edu-block {
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+
+    .edu-logo {
+      width: 120px;
+      height: 120px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
+    .edu-text h3 {
+      font-style: normal;
+      font-size: 1.05rem;
+      font-weight: 600;
+      font-family: 'Inter', sans-serif;
+      margin-bottom: 0.25rem;
+    }
+
+    .edu-text p { color: var(--muted); font-size: 0.9rem; margin-bottom: 0.2rem; }
+
+    .edu-text ul {
+      margin-top: 1rem;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .edu-text ul li {
+      background: #f4f4f4;
+      border-radius: 100px;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    /* ABOUT */
+    .about-inner {
+      display: flex;
+      gap: 3rem;
+      align-items: flex-start;
+    }
+
+    .about-photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+
+    .about-text p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
+    .about-text p:last-child { margin-bottom: 0; }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    footer a {
+      color: var(--muted);
+      text-decoration: none;
+      margin: 0 0.5rem;
+      transition: color 0.15s;
+    }
+
+    footer a:hover { color: var(--text); }
+
+    /* RESPONSIVE */
+    @media (max-width: 640px) {
+      nav { padding: 0 1.25rem; }
+      section { padding: 3.5rem 1.25rem; }
+
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+
+      .about-inner { flex-direction: column; }
+      .about-photo { width: 120px; height: 120px; }
+
+      .edu-block { flex-direction: column; gap: 1rem; }
+      .edu-logo { width: 80px; height: 80px; }
+
+      .projects-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#home" class="nav-logo">IZ</a>
+    <ul class="nav-links">
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#education">education</a></li>
+      <li><a href="#about">about</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#projects" onclick="closeMenu()">projects</a></li>
+      <li><a href="#education" onclick="closeMenu()">education</a></li>
+      <li><a href="#about" onclick="closeMenu()">about</a></li>
+    </ul>
+  </div>
+
+  <!-- HOME -->
+  <section id="home">
+    <h1 class="hero-name">isabel zhong</h1>
+    <p class="hero-sub">applied ml engineer. interested in robotics, wearables, and the intersection of biology and tech.</p>
+    <div class="hero-links">
+      <a href="https://www.linkedin.com/in/isabel-zhong/" target="_blank">linkedin ↗</a>
+      <a href="https://github.com/izo0619" target="_blank">github ↗</a>
+      <a href="https://drive.google.com/file/d/1oal-nVxJU4eqlMbuOaN4gSzAw8Oh-wRn/view?usp=sharing" target="_blank">resume ↗</a>
+      <a href="https://drive.google.com/file/d/13rRBEcHjR14kZkTHNpnUBIIoEweegSKF/view?usp=sharing" target="_blank">cv ↗</a>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>projects</h2>
+    <div class="projects-grid">
+
+      <a class="project-card" href="https://github.com/NU-Formula-Racing" target="_blank">
+        <img src="/static/media/nfr.8da11d06.jpg" alt="Northwestern Formula Racing">
+        <div class="project-info"><p>Northwestern Formula Racing Software (EV)</p></div>
+      </a>
+
+      <a class="project-card" href="https://youtu.be/HQtY-_a-lCs" target="_blank">
+        <img src="/static/media/rds.25b2f963.png" alt="RDS">
+        <div class="project-info"><p>Bilateral Robotic Thumb and Finger with Haptic Feedback for Radioactive Laboratory Settings (RDS 2024)</p></div>
+      </a>
+
+      <a class="project-card" href="https://drive.google.com/file/d/1x8vFQeTjd4wmEeSRTgbt46HwROoYGjzM/view?usp=sharing" target="_blank">
+        <img src="/static/media/bmecap.7c82b9f6.png" alt="BME Capstone">
+        <div class="project-info"><p>MRI-Compatible Chest Compression Device (BME Capstone, Robert B. Taggart Best Design Award)</p></div>
+      </a>
+
+      <span class="project-card no-link">
+        <img src="/static/media/xenobot.018b50b4.gif" alt="Xenobot">
+        <div class="project-info"><p>Morphology Evolution with Differentiable Physics Engines (Xenobot Lab)</p></div>
+      </span>
+
+      <a class="project-card" href="https://github.com/izo0619/celegans_img_proc" target="_blank">
+        <img src="/static/media/celegans.8d29f458.png" alt="C.Elegans">
+        <div class="project-info"><p>Image Processing on C.Elegans (Mangan Group)</p></div>
+      </a>
+
+      <a class="project-card" href="https://doi.org/10.1073/pnas.2219394120" target="_blank">
+        <img src="/static/media/rogers.d55da904.jpg" alt="Rogers Lab">
+        <div class="project-info"><p>Skin-Interfaced Wearable for Vocal Fatigue (Rogers Lab)</p></div>
+      </a>
+
+      <a class="project-card" href="https://www.youtube.com/watch?v=DpXqGQT3Rls" target="_blank">
+        <img src="/static/media/dance335.aec7b5d4.jpg" alt="Butterfly Effect">
+        <div class="project-info"><p>Butterfly Effect (Dance 335 Performance and Technology Final Project)</p></div>
+      </a>
+
+      <a class="project-card" href="https://github.com/izo0619/perlin-noise-flow-field" target="_blank">
+        <img src="/static/media/perlinnoise.2ced13bf.gif" alt="Perlin Noise">
+        <div class="project-info"><p>Perlin Noise Flow Field Simulation</p></div>
+      </a>
+
+      <a class="project-card" href="https://grabcad.com/library/northwestern-weber-arch-1" target="_blank">
+        <img src="/static/media/nuarchcad.9eb2e58e.png" alt="Weber Arch">
+        <div class="project-info"><p>Weber Arch Model</p></div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2>education</h2>
+    <div class="edu-block">
+      <img class="edu-logo" src="/static/media/nu.b310aa11.jpeg" alt="Northwestern University">
+      <div class="edu-text">
+        <h3>Northwestern University</h3>
+        <p>2020 – 2024</p>
+        <p>B.S. Biomedical Engineering</p>
+        <p>M.S. Computer Science</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>about</h2>
+    <div class="about-inner">
+      <img class="about-photo" src="/static/media/pfp4.5c9a4225.png" alt="Isabel Zhong">
+      <div class="about-text">
+        <p>Hi! I'm a machine learning engineer with a background in biomedical engineering and robotics.</p>
+        <p>My main interests lie in 1) developing robots inspired by intelligent biological systems (such as ourselves) and 2) using computational biology and neuroscience to further our understanding of the human body to better interface with it.</p>
+        <p>I am currently a MLE at Scale AI working on computer vision for government use cases. I previously interned at Amazon Robotics, Microsoft, and two seed stage startups. In college, I was in the Mangan Group working on quantitative biology research (2021–2023) and the Xenobot Lab working on differentiable evolutionary robotics (2023-2024). I was also on Northwestern's Formula SAE team for four years, where I laid the software groundwork for our first EV car.</p>
+        <p>In my free time, I like to dance and spend time with my cat Toast. Please feel free to contact me or connect on LinkedIn to chat!</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      <a href="https://www.linkedin.com/in/isabel-zhong/" target="_blank">linkedin</a>
+      <a href="https://github.com/izo0619" target="_blank">github</a>
+      <a href="https://drive.google.com/file/d/1oal-nVxJU4eqlMbuOaN4gSzAw8Oh-wRn/view?usp=sharing" target="_blank">resume</a>
+      <a href="https://drive.google.com/file/d/13rRBEcHjR14kZkTHNpnUBIIoEweegSKF/view?usp=sharing" target="_blank">cv</a>
+    </p>
+    <p style="margin-top:0.75rem">izx at u.northwestern.edu</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobile-menu').classList.toggle('open');
+    }
+    function closeMenu() {
+      document.getElementById('mobile-menu').classList.remove('open');
+    }
+    document.addEventListener('click', function(e) {
+      const menu = document.getElementById('mobile-menu');
+      const hamburger = document.querySelector('.hamburger');
+      if (menu.classList.contains('open') && !menu.contains(e.target) && !hamburger.contains(e.target)) {
+        menu.classList.remove('open');
+      }
+    });
+  </script>
+
+</body>
+</html>
